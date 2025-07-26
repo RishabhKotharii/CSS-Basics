@@ -1,0 +1,33 @@
+.name1,.name2,.name3,.name4{
+    width: 100px;
+    height: 100px;
+    flex-grow: 1;
+    }
+.name1{
+    background-color: rgb(226, 9, 9);
+}
+.name2{
+    background-color: rgb(184, 62, 62);
+}
+.name3{
+    background-color: rgb(153, 96, 96);
+}
+.name4{
+    background-color: rgb(141, 119, 119);
+}
+
+
+    @media screen and (min-width: 800px){
+        .box{
+            display: flex;
+        }
+    
+}
+
+  
+        .box{
+            display: flex;
+            flex-wrap: wrap;
+            align-content: flex-start;
+        }
+   
